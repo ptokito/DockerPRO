@@ -7,8 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Yes OR NO? but does it work?
-          
+          How about refreshing? NOW? later maybe? Lets try! 
 
         </p>
         <a
@@ -17,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          DOCKER and REACT!!!
+          DOCKER and REACT EJ!!!!
         </a>
       </header>
     </div>
