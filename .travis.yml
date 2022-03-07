@@ -16,7 +16,7 @@ deploy:
   on: 
     branch: Feature
   ACCESS_KEY_ID: $AWS_ACCESS_KEY
-  SECRET_ACCESS_KEY: "$AWS_SECRET_KEY"
+  SECRET_ACCESS_KEY: $AWS_SECRET_KEY
   
 
   #check 
