@@ -5,7 +5,7 @@ services:
 before_install: 
   - docker build -t timokito/dockerpro -f Dockerfile.dev . 
 script:
-  - docker run -e CI=true timokito/Ddockerpro npm run test
+  - docker run -e CI=true timokito/dockerpro npm run test
 
   #check 
 
