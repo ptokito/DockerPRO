@@ -8,7 +8,7 @@ script:
   - docker run -e CI=true timokito/dockerpro npm run test
 deploy: 
   provider: elasticbeanstalk 
-  region: u"s-east-1"
+  region: "us-east-1"
   app: "docker-react"
   env: "Dockerreact-env"
   bucket_name: "elasticbeanstalk-us-east-1-384288561359"
