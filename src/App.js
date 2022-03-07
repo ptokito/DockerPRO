@@ -1,3 +1,4 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
@@ -6,17 +7,14 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          How about refreshing? NOW? later maybe? Lets try! 
-
-        </p>
+        <p>Bye there!</p>
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          DOCKER and REACT EJ!!!!
+          Learn React
         </a>
       </header>
     </div>
